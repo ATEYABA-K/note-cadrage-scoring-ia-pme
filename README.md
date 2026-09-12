@@ -1,6 +1,6 @@
 # Note de cadrage — Scoring IA de risque d'attrition pour comptes Pro/PME
 
-Exercice de cadrage de projet : produire le document qu'un Chargé de Projet Data/IA rédigerait avant le lancement d'un projet, pour aligner sponsor métier, équipe technique et parties prenantes sur le périmètre, les jalons et les risques avant d'écrire une ligne de code. Projet fictif, construit pour être réaliste dans sa structure et ses contraintes — pas un vrai projet en cours.
+Avant de coder quoi que ce soit sur un projet data/IA, il y a normalement ce document — celui qui force à répondre à "pourquoi on fait ça, jusqu'où, et qu'est-ce qui peut mal tourner" avant que quelqu'un touche à une ligne de code. J'ai voulu m'entraîner sur cet exercice précis, séparément de la partie technique : un cas fictif (pas de vraie entreprise derrière), mais construit avec des contraintes et des chiffres qui tiennent debout entre eux.
 
 ## 1. Contexte et problème métier
 
@@ -86,8 +86,6 @@ Une direction commerciale B2B gérant un portefeuille de comptes Pro/PME constat
 
 ---
 
-*Document produit dans le cadre d'un exercice personnel de mise en pratique des compétences de cadrage de projet Data/IA — voir les autres projets du portfolio pour la partie exécution technique (analyse de données, scoring, automatisation).*
-
-## Auteur
+Le point le plus dur à écrire honnêtement, c'était la section risques — c'est facile de lister des évidences ("manque de budget", "délai serré"). J'ai préféré des risques spécifiques à *ce* projet précis, avec une vraie mitigation actionnable en face, pas juste un mot en face d'un autre.
 
 Alvin Kouadio
