@@ -1,10 +1,10 @@
-# Note de cadrage — Scoring IA de risque d'attrition (exercice)
+# Note de cadrage : scoring IA de risque d'attrition (exercice)
 
 ## En bref
 Avant de coder quoi que ce soit sur un projet data, il y a un document qui force à répondre à trois questions : pourquoi on fait ça, jusqu'où, et qu'est-ce qui peut mal tourner. Je me suis entraîné à cet exercice sur un cas fictif (aucune vraie entreprise derrière), pour apprendre la méthode de cadrage d'un projet data avant de foncer dans la technique.
 
 ## 1. Contexte et problème métier
-Une direction commerciale B2B gérant un portefeuille de comptes Pro/PME constate une perte de clients (churn) qu'elle ne détecte qu'après coup — au moment de la résiliation. Les chargés de compte n'ont pas de signal pour prioriser leurs actions de rétention.
+Une direction commerciale B2B gérant un portefeuille de comptes Pro/PME constate une perte de clients (churn) qu'elle ne détecte qu'après coup, au moment de la résiliation. Les chargés de compte n'ont pas de signal pour prioriser leurs actions de rétention.
 
 **Hypothèse de cadrage (chiffres fictifs, pour illustrer le raisonnement)** : sur un portefeuille de 5 000 comptes, un taux de churn de 12 % représente ~600 comptes perdus par an. Détecter 20 % des cas à risque avec une rétention efficace à 30 % donnerait un gain estimé de 36 comptes retenus par an.
 
@@ -15,7 +15,7 @@ Une direction commerciale B2B gérant un portefeuille de comptes Pro/PME constat
 | O2 | Prioriser l'effort commercial | Top 20 % des comptes = 50 %+ des churns réels capturés |
 | O3 | Rester simple à utiliser | Score intégré au CRM existant, pas de nouvel outil |
 
-**Ce que ce projet ne fait pas** : automatiser la décision de rétention — seulement aider à prioriser l'attention humaine.
+**Ce que ce projet ne fait pas** : automatiser la décision de rétention, il aide seulement à prioriser l'attention humaine.
 
 ## 3. Périmètre
 Dans le périmètre : comptes Pro/PME existants, historique de facturation et d'usage, restitution dans le CRM.
